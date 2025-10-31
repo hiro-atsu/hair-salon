@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>hair-salon</title>
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="hair-salon.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-inview@1.1.2/jquery.inview.min.js"></script>
+<script src="hair-salon.js"></script>
+
+</head>
+<body>
+    <header id="header">
+        <h1 class="logo"><a href="#">hair salon</a></h1>
+        <nav id="nav">
+            <ul class="menu">
+                <li><a href="#concept">CONCEPT</a></li>
+                <li><a href="#worker">WORKER</a></li>
+                <li><a href="#access">ACCESS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <div id="main_img">
+            <img src="https://images.unsplash.com/photo-1633681926035-ec1ac984418a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070" alt="">
+            <h1 class="text">Change for life</h1>
+        </div>
+        <section id="concept" class="wrapper">
+            <h2 class="sec_title slide-up">
+                <span class="en">CONCEPT/</span>
+                <span class="ja">我々サロンの考え</span>
+            </h2>
+            <dl class="concept_item">
+                <div class="slide-left"><dt>イケメンを作る</dt> <dd>清潔感を整え女性にも男性にもモテるようなイケメンになって欲しい</dd></div>
+                <div class="slide-right"><dt>自分の可能性を見つけさせる</dt> <dd>自分の限界を決めず、自分の可能性を髪型、髪色からも発掘してもらうサポートをする</dd></div>
+                <div class="slide-left"><dt>髪の重要性に気づいてもらう</dt> <dd>髪の毛が人に与える影響を全男性に認識してもらうために世の中に発信していく</dd></div>
+            </dl>
+        </section>
+        <section id="worker">
+            <h2 class="sec_title">
+                <span class="en">WORKER/</span>
+                <span class="ja">従業員紹介</span>
+            </h2>
+            <div class="content">
+                <div class="img">
+                    <ul>
+                        <li><img src="https://images.unsplash.com/photo-1712213396688-c6f2d536671f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070" alt=""></li>
+                        <li><img src="https://images.unsplash.com/photo-1520336811552-42878b67d25f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070" alt=""></li>
+                        <li><img src="https://images.unsplash.com/photo-1703792686658-24e62d626ed2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=987" alt=""></li>
+                        <li><img src="https://images.unsplash.com/photo-1666622833860-562f3a5caa59?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070" alt=""></li>
+                        <li><img src="https://images.unsplash.com/photo-1654097801176-cb1795fd0c5e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=3099" alt=""></li>
+                        <li><img src="https://images.unsplash.com/photo-1514336937476-a5b961020a5c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070" alt=""></li>
+                    </ul>
+                </div>
+                <div class="worker_text">
+                    <div class="item">
+                        <div class="worker_img">
+                            <img src="https://images.unsplash.com/photo-1622100685582-d8542910e078?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=983" alt="">
+                        </div>
+                        <div class="text">
+                            <h3 class="name">斉藤一心</h3>
+                            <p class="Strengths">得意な施術</p>
+                            <p>パーマ、ストレートパーマ、ヘアセット</p>
+                            <p>初めてのパーマならお任せください。東京で一番パーマの上手い男です。</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="worker_img">
+                            <img src="https://images.unsplash.com/photo-1609543563735-d7cfaf71addb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=987" alt="">
+                            
+                        </div>
+                        <div class="text">
+                            <h3 class="name">長谷川煬帝</h3>
+                            <p class="Strengths">得意な施術</p>
+                            <p>韓国風セット、センターパート、マッシュヘア</p>
+                            <p>お客様との関係を大事にしていきたいと考えています。気軽に悩みを相談してください。</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="worker_img">
+                            <img src="https://images.unsplash.com/photo-1553521041-d168abd31de3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1064" alt="">
+                        </div>
+                        <div class="text">
+                            <h3 class="name">真壁和正</h3>
+                            <p class="Strengths">得意な施術</p>
+                            <p>フェードカット、角刈り、コーンロー</p>
+                            <p>HIP HOPが大好き。いかつい男になりたい人は私にお任せください。男も惚れる男にします。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="access" class="wrapper">
+            <h2 class="sec_title">
+                <span class="en">ACCESS/</span>
+                <span class="ja">行き方</span>
+            </h2>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.6831613967106!2d139.73286700102722!3d35.66017708010212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b9c2ef8e6c3%3A0xff8de5eeddcd1e17!2z44CSMTA2LTAwMzIg5p2x5Lqs6YO95riv5Yy65YWt5pys5pyo77yV5LiB55uu!5e0!3m2!1sja!2sjp!4v1622980739129!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" frameborder="0" frameborder="0"></iframe>
+            </div>
+            <p>東京都新宿区芦屋西3丁目40ー2ー3<br>新宿駅から徒歩5分</p>
+        </section>
+        <section id="contact" class="wrapper">
+            <h2 class="sec_title">
+                <span class="en">CONTACT/</span>
+                <span class="ja">お問い合わせはこちらから</span>
+            </h2>
+            <form>
+                <dl>
+                    <dt><label for="name">お名前:</label></dt><dd><input type="text" id="name" class="your_name" placeholder="例：山田 太郎"></dd>
+                    <dt><label for="email">メールアドレス:</label></dt><dd><input type="text" id="email" class="your_name" placeholder="例：example@gmail.com"></dd>
+                    <dt><label for="text">お問い合わせ内容:</label></dt><dd><textarea name="your_text" id="text" placeholder="ご用件を入力してください"></textarea></dd>
+                </dl>
+                <input class="btn" type="submit" value="送信">
+            </form>
+        </section>
+    </main>
+    <footer id="footer" class="wrapper">
+        <ul class="menu">
+            <li><a href="#">ホーム</a></li>
+            <li><a href="http://hair-salon.local/hair-salon-matumoto/">ブログ</a></li>
+            <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+        <p>@copyright</p>
+    </footer>
+</body>
+</html>
